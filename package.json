@@ -47,27 +47,27 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "react-native-reanimated":  "2.4.1",
-    "react-native-vision-camera": "^2.9.4",
-    "@commitlint/config-conventional": "^11.0.0",
-    "@react-native-community/eslint-config": "^2.0.0",
-    "@release-it/conventional-changelog": "^2.0.0",
-    "@types/jest": "^26.0.0",
-    "@types/react": "^16.9.19",
-    "@types/react-native": "0.62.13",
-    "commitlint": "^11.0.0",
-    "eslint": "^7.2.0",
-    "eslint-config-prettier": "^7.0.0",
-    "eslint-plugin-prettier": "^3.1.3",
-    "husky": "^4.2.5",
-    "jest": "^26.0.1",
-    "pod-install": "^0.1.0",
-    "prettier": "^2.0.5",
-    "react": "17.0.1",
-    "react-native": "0.65.1",
-    "react-native-builder-bob": "^0.18.1",
-    "release-it": "^14.2.2",
-    "typescript": "^4.1.3"
+    "@commitlint/config-conventional": "^20.4.1",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@release-it/conventional-changelog": "^10.0.4",
+    "@types/jest": "^30.0.0",
+    "@types/react": "^19.2.10",
+    "@types/react-native": "0.73.0",
+    "commitlint": "^20.4.1",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "husky": "^9.1.7",
+    "jest": "^30.2.0",
+    "pod-install": "^1.0.9",
+    "prettier": "^3.8.1",
+    "react": "19.2.4",
+    "react-native": "0.83.1",
+    "react-native-builder-bob": "^0.40.17",
+    "react-native-reanimated": "4.2.1",
+    "react-native-vision-camera": "^4.7.3",
+    "release-it": "^19.2.4",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "react": "*",
@@ -91,25 +91,6 @@
     },
     "github": {
       "release": false
-    }
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "@react-native-community",
-      "prettier"
-    ],
-    "rules": {
-      "prettier/prettier": [
-        "error",
-        {
-          "quoteProps": "consistent",
-          "singleQuote": true,
-          "tabWidth": 2,
-          "trailingComma": "es5",
-          "useTabs": false
-        }
-      ]
     }
   },
   "eslintIgnore": [
